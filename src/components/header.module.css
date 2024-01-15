@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  gap: 32px;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.search,
+.cart,
+.account,
+.logout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 24px;
+}
+
+.searchBox {
+  height: 40px;
+  width: 720px;
+  font-size: 20px;
+  padding: 8px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #cae9ff;
+}
+
+.searchButton {
+  cursor: pointer;
+}
+
+.links {
+  text-decoration: none;
+  color: black;
+}
